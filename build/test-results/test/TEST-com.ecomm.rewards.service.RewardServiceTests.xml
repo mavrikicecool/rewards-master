@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ecomm.rewards.service.RewardServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-21T05:14:51" hostname="Adarshs-MacBook-Air.local" time="0.052">
+  <properties/>
+  <testcase name="givenCustomerID_whenFound_thenReturnRewardPoints()" classname="com.ecomm.rewards.service.RewardServiceTests" time="0.05"/>
+  <testcase name="givenCustomerID_whenNotFound_thenReturnErrorMessage()" classname="com.ecomm.rewards.service.RewardServiceTests" time="0.001"/>
+  <system-out><![CDATA[2022-11-21 10:44:51.287  INFO 11334 --- [    Test worker] com.ecomm.rewards.service.RewardService  : start findRewardPoints - 1
+2022-11-21 10:44:51.288  INFO 11334 --- [    Test worker] com.ecomm.rewards.service.RewardService  : end findRewardPoints - reward points - 275.20 for customer id - 1
+2022-11-21 10:44:51.290  INFO 11334 --- [    Test worker] com.ecomm.rewards.service.RewardService  : start findRewardPoints - 10
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
